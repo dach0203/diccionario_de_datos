@@ -33,9 +33,13 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ##Pasos para lainstalacion del proyecto 
 
-- tener instalado laravel 8
-- tener instalado git
-- tener instalado Xammp o Laragon o cualquier otra paquete que ejecute servicio web con MySql y PHP 8
-- tener instalado Composer
+- Tener instalado laravel 8
+- Tener instalado git
+- Tener instalado Xammp o Laragon o cualquier otra paquete que ejecute servicio web con MySql y PHP 8
+- Tener instalado Composer
+- Después de clonar el repositorio, abrir CMD dentro del repositorio y ejecutar el comando composer install esto instalará las dependencias del proyecto
+- Clonar el archivo .env.example con el comando copy .en.example .env, esto en sistemas Windows 
+- Luego debemos generar la app_key con el comando  php artisan key:generate 
+
 
 
